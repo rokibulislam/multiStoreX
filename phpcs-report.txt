@@ -1,0 +1,77 @@
+
+FILE: /Users/rokibulislam/Sites/wpcontact/wp-content/plugins/multiStoreX/includes/functions.php
+-----------------------------------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+-----------------------------------------------------------------------------------------------
+ 2396 | ERROR | Detected usage of a non-sanitized input variable: $_GET['product_search_name']
+-----------------------------------------------------------------------------------------------
+
+
+FILE: /Users/rokibulislam/Sites/wpcontact/wp-content/plugins/multiStoreX/includes/wc-functions.php
+--------------------------------------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+--------------------------------------------------------------------------------------------------
+ 837 | ERROR | Detected usage of a non-sanitized input variable: $_POST['account_first_name']
+ 838 | ERROR | Detected usage of a non-sanitized input variable: $_POST['account_last_name']
+--------------------------------------------------------------------------------------------------
+
+
+FILE: ...rs/rokibulislam/Sites/wpcontact/wp-content/plugins/multiStoreX/includes/Product/class-product-template.php
+----------------------------------------------------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------------------------------------------------
+ 35 | ERROR | Processing form data without nonce verification.
+ 72 | ERROR | Processing form data without nonce verification.
+----------------------------------------------------------------------------------------------------------------
+
+
+FILE: /Users/rokibulislam/Sites/wpcontact/wp-content/plugins/multiStoreX/includes/template-tags.php
+----------------------------------------------------------------------------------------------------------------
+FOUND 12 ERRORS AFFECTING 10 LINES
+----------------------------------------------------------------------------------------------------------------
+ 271 | ERROR | All output should be run through an escaping function (see the Security sections in the
+     |       | WordPress Developer Handbooks), found 'number_format_i18n'.
+ 289 | ERROR | All output should be run through an escaping function (see the Security sections in the
+     |       | WordPress Developer Handbooks), found 'number_format_i18n'.
+ 307 | ERROR | All output should be run through an escaping function (see the Security sections in the
+     |       | WordPress Developer Handbooks), found 'number_format_i18n'.
+ 325 | ERROR | All output should be run through an escaping function (see the Security sections in the
+     |       | WordPress Developer Handbooks), found 'number_format_i18n'.
+ 343 | ERROR | All output should be run through an escaping function (see the Security sections in the
+     |       | WordPress Developer Handbooks), found 'number_format_i18n'.
+ 361 | ERROR | All output should be run through an escaping function (see the Security sections in the
+     |       | WordPress Developer Handbooks), found 'number_format_i18n'.
+ 379 | ERROR | All output should be run through an escaping function (see the Security sections in the
+     |       | WordPress Developer Handbooks), found 'number_format_i18n'.
+ 398 | ERROR | All output should be run through an escaping function (see the Security sections in the
+     |       | WordPress Developer Handbooks), found 'number_format_i18n'.
+ 695 | ERROR | All output should be run through an escaping function (see the Security sections in the
+     |       | WordPress Developer Handbooks), found 'call_user_func_array'.
+ 772 | ERROR | All output should be run through an escaping function (see the Security sections in the
+     |       | WordPress Developer Handbooks), found '$checked'.
+ 772 | ERROR | All output should be run through an escaping function (see the Security sections in the
+     |       | WordPress Developer Handbooks), found '$term'.
+ 772 | ERROR | All output should be run through an escaping function (see the Security sections in the
+     |       | WordPress Developer Handbooks), found '$term'.
+----------------------------------------------------------------------------------------------------------------
+
+
+FILE: /Users/rokibulislam/Sites/wpcontact/wp-content/plugins/multiStoreX/templates/sidebar/nav.php
+----------------------------------------------------------------------------------------------------------------
+FOUND 6 ERRORS AFFECTING 6 LINES
+----------------------------------------------------------------------------------------------------------------
+ 2 | ERROR | All output should be run through an escaping function (see the Security sections in the WordPress
+   |       | Developer Handbooks), found 'site_url'.
+ 3 | ERROR | All output should be run through an escaping function (see the Security sections in the WordPress
+   |       | Developer Handbooks), found 'site_url'.
+ 4 | ERROR | All output should be run through an escaping function (see the Security sections in the WordPress
+   |       | Developer Handbooks), found 'site_url'.
+ 5 | ERROR | All output should be run through an escaping function (see the Security sections in the WordPress
+   |       | Developer Handbooks), found 'site_url'.
+ 6 | ERROR | All output should be run through an escaping function (see the Security sections in the WordPress
+   |       | Developer Handbooks), found 'site_url'.
+ 7 | ERROR | All output should be run through an escaping function (see the Security sections in the WordPress
+   |       | Developer Handbooks), found 'site_url'.
+----------------------------------------------------------------------------------------------------------------
+
+
